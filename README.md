@@ -37,3 +37,7 @@ Nesse projeto, você deverá ser capaz de:
 
 - Instale as dependências:
   - `npm install`
+
+3. Inicie instâncias do back-end e do front-end, a partir das referidas pastas.
+  - `npm run dev` (na pasta 'back-end')
+  - `npm start` (na pasta 'front-end')
