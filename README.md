@@ -20,7 +20,7 @@ Como seu antigo sistema, que era um conjunto de planilhas, já não atende a nec
 
 Nesse projeto, você deverá ser capaz de:
 
-- Manter aderência do código à especificação. Seu programa deve se comportar como especificado no repositório, no [protótipo](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=0%3A1) e no [Diagrama de ER](./assets/readme/eer.png);
+- Manter aderência do código à especificação.
 - Manter a organização do seu código e a arquitetura geral da aplicação (tanto da API quando do front-end);
 - Manter aderência ao padrão REST na API;
 - Respeitar a estrutura do banco de dados. Sua implementação não deve adicionar ou remover tabelas, campos ou relacionamentos e sua API deve estar preparada para aproveitar essa estrutura por completo;
