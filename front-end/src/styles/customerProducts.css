@@ -1,0 +1,99 @@
+/* === Page Customer Product Card === */
+.products-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2vh;
+  height: max-content;
+  padding-bottom: 5vh;
+  width: 100%;
+}
+
+.container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  left: 100px;
+  top: 100px;
+  width: 80vw;
+}
+
+.product_card {
+  background: white;
+  border: 2px solid #727272;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 310px;
+}
+
+.card_price {
+  font-size: 25px;
+  font-weight: 600;
+  left: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+.image {
+  align-self: center;
+  height: 200px;
+  margin: 50px 0;
+}
+
+.product_card__footer {
+  align-items: center;
+  background: #727272;
+  border-radius: 0 0 13px 13px;
+  bottom: 0;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 9vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.product_name {
+  line-height: 2.5;
+  margin: 0;
+}
+
+.quantity input {
+  appearance: none;
+  margin: 5px;
+  text-align: center;
+  width: 30px;
+}
+
+/* === Page Customer Button For Shopping Cart === */
+.ver_carrinho {
+  align-items: center;
+  background: #5e5e5e;
+  border-radius: 13px;
+  bottom: 20px;
+  display: flex;
+  height: 6vh;
+  position: fixed;
+  right: 25px;
+  width: 200px;
+}
+
+.ver_carrinho:hover {
+  background: #727272;
+}
+
+.ver_carrinho span {
+  color: aliceblue;
+  font-size: 1.3rem;
+  margin-left: 15px;
+}
+
+.card_price:before, .total-value:before {
+  content: 'R$';
+  margin-right: 0.15em;
+}
